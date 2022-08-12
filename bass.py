@@ -23,7 +23,8 @@ for position in rests:
     staff_beats = staff_beats.replace(position, replacement)
 
 chords = {
-    'Gm7': ['G', 'B♭', 'D', 'F'],
+    # 'Gm7': ['G', 'B♭', 'D', 'F'],
+    'G7sus4': ['G', 'C', 'D', 'F'],
     # 'Dm7': ['D', 'F', 'A', 'C'],
 }
 
