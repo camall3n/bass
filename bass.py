@@ -24,8 +24,9 @@ for position in rests:
 
 chords = {
     # 'Gm7': ['G', 'B♭', 'D', 'F'],
-    'G7sus4': ['G', 'C', 'D', 'F'],
+    # 'G7sus4': ['G', 'C', 'D', 'F'],
     # 'Dm7': ['D', 'F', 'A', 'C'],
+    'Am7': ['A', 'C', 'E', 'G'],
 }
 
 chord = random.choice(list(chords.keys()))
