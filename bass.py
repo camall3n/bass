@@ -15,7 +15,7 @@ a       e       i       m       q       u       y       θ        |
 |_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|__|
 1       2       3       4       5       6       7       8"""
 note_positions = 'a𝛽cdefghijklmnopqrstuvwxyzζ𝛿θλ𝜀𝜅'
-notes_str = ' '.join(note_positions)
+notes_str = ' '.join(note_positions) + ' '
 
 n_notes = 14
 shuffled_positions = np.random.permutation(list(note_positions))
@@ -26,7 +26,7 @@ staff_beats = staff_str
 for position in beats:
     staff_beats = staff_beats.replace(position, 'X')
 for position in rests:
-    replacement = '|' if position in 'aeimquy𝛾' else ' '
+    replacement = '|' if position in 'aeimquyθ' else ' '
     staff_beats = staff_beats.replace(position, replacement)
 
 chords = {
