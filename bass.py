@@ -1,6 +1,8 @@
 import numpy as np
 import random
 
+from fretboard import Fretboard
+
 # from chords import Chord
 # c = Chord.random(seventh='7')
 # print(f'\'{c.name()}\': {c.notes()}')
@@ -50,3 +52,5 @@ print(chord)
 print(note_annotations, end='')
 print(staff_beats)
 print()
+
+print(Fretboard.from_notes(chords[chord]))
