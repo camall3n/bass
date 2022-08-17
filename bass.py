@@ -2,12 +2,12 @@ import numpy as np
 import random
 
 staff_str = """
-a       e       i       m       q       u       y       𝛾        |
-|   c   |   g   |   k   |   o   |   s   |   w   |   𝛼   |   𝜀   *|
-| b | d | f | h | j | l | n | p | r | t | v | x | z | 𝛽 | 𝛿 | 𝜅 *|
+a       e       i       m       q       u       y       θ        |
+|   c   |   g   |   k   |   o   |   s   |   w   |   ζ   |   𝜀   *|
+| 𝛽 | d | f | h | j | l | n | p | r | t | v | x | z | 𝛿 | λ | 𝜅 *|
 |_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|__|
 1       2       3       4       5       6       7       8"""
-note_positions = 'abcdefghijklmnopqrstuvwxyz𝛼𝛽𝛾𝛿𝜀𝜅'
+note_positions = 'a𝛽cdefghijklmnopqrstuvwxyzζ𝛿θλ𝜀𝜅'
 notes_str = ' '.join(note_positions)
 
 n_notes = 14
@@ -23,7 +23,7 @@ for position in rests:
     staff_beats = staff_beats.replace(position, replacement)
 
 chords = {
-    # 'Gm7': ['G', 'B♭', 'D', 'F'],
+    # 'Gm7': ['G', 'Bb', 'D', 'F'],
     # 'G7sus4': ['G', 'C', 'D', 'F'],
     # 'Dm7': ['D', 'F', 'A', 'C'],
     'Am7': ['A', 'C', 'E', 'G'],
