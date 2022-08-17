@@ -5,6 +5,8 @@ from multiprocessing.sharedctypes import Value
 
 import numpy as np
 
+from scales import chromatic_scale
+
 @dataclass
 class Chord:
     """Class for keeping track of musical keys"""
@@ -78,7 +80,6 @@ class Chord:
         tone_names = ['R', 'b2', '2', 'm3', '3', '4', 'b5', '5', '#5', '6', 'm7', '7']
         semitones = [tone_names.index(tone) for tone in tones]
         
-        chromatic_scale = ['A', 'A#/Bb', 'B', 'C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab']
         for root_idx, note_name in enumerate(chromatic_scale):
             if self.root == note_name:
                 break
