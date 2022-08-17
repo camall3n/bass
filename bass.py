@@ -1,6 +1,11 @@
 import numpy as np
 import random
 
+# from chords import Chord
+# c = Chord.random(seventh='7')
+# print(f'\'{c.name()}\': {c.notes()}')
+# import sys; sys.exit()
+
 staff_str = """
 a       e       i       m       q       u       y       θ        |
 |   c   |   g   |   k   |   o   |   s   |   w   |   ζ   |   𝜀   *|
@@ -26,7 +31,8 @@ chords = {
     # 'Gm7': ['G', 'Bb', 'D', 'F'],
     # 'G7sus4': ['G', 'C', 'D', 'F'],
     # 'Dm7': ['D', 'F', 'A', 'C'],
-    'Am7': ['A', 'C', 'E', 'G'],
+    # 'Am7': ['A', 'C', 'E', 'G'],
+    'Bb7': ['Bb', 'D', 'F', 'Ab']
 }
 
 chord = random.choice(list(chords.keys()))
