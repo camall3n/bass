@@ -34,7 +34,8 @@ chords = {
     # 'G7sus4': ['G', 'C', 'D', 'F'],
     # 'Dm7': ['D', 'F', 'A', 'C'],
     # 'Am7': ['A', 'C', 'E', 'G'],
-    'Bb7': ['Bb', 'D', 'F', 'Ab']
+    # 'Bb7': ['Bb', 'D', 'F', 'Ab'],
+    'C7b5': ['C', 'E', 'Gb', 'Bb'],
 }
 
 chord = random.choice(list(chords.keys()))
@@ -53,4 +54,4 @@ print(note_annotations, end='')
 print(staff_beats)
 print()
 
-print(Fretboard.from_notes(chords[chord]))
+# print(Fretboard.from_notes(chords[chord]))
