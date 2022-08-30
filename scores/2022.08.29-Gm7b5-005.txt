@@ -1,0 +1,17 @@
+Gm7b5
+straight....                                                  ^
+G     G   G G A Bb    F   F Db  G     G   G G A Bb    F   F DbG
+X       |       X       |       X       |       X       |        |
+|       |   X   |       |   X-> |       |   X   |       |   X   *|
+|   | X | X | X |   | X | X |   |   | X | X | X |   | X | X | X *|
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|__|
+1       2       3       4       5       6       7       8
+
+swing...
+G G   BbDbDb  BbDbF BbDbBbG   F G G   F BbBb  DbEbEbEbF BbDb  F
+X       X       X       X       X       X       X       X        |
+|       |       |   x   |       |       |       |  (x)  |       *|
+| X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X *|
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|__|
+1       2       3       4       5       6       7       8
+

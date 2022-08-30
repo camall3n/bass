@@ -35,7 +35,8 @@ chords = {
     # 'Dm7': ['D', 'F', 'A', 'C'],
     # 'Am7': ['A', 'C', 'E', 'G'],
     # 'Bb7': ['Bb', 'D', 'F', 'Ab'],
-    'C7b5': ['C', 'E', 'Gb', 'Bb'],
+    # 'C7b5': ['C', 'E', 'Gb', 'Bb'],
+    'Gm7b5': ['G', 'Bb', 'Db', 'F'],
 }
 
 chord = random.choice(list(chords.keys()))
