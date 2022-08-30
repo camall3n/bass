@@ -35,9 +35,9 @@ class Chord:
         return chord
 
     def _uses_flats(self):
-        if self.third == 'm' and self.root in ['D', 'G', 'C', 'F', 'Bb', 'Eb']:
+        if self.third == 'm' and self.root in ['A', 'D', 'G', 'C', 'F', 'Bb', 'Eb']:
             return True
-        elif self.third in ['', 'sus'] and self.root in ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb']:
+        elif self.third in ['', 'sus'] and self.root in ['C', 'F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb']:
             return True
         return False
     
